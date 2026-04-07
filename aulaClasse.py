@@ -3,11 +3,11 @@ class Aluno():
         self.nome =  nome
         self.idade = idade
         self.curso = curso
-        self.ra = " "
+        self.ra = ""
        
     def apresentar(self):
         print(f"Olá, meu nome é {self.nome}, tenho {self.idade} anos e faço o curso de {self.curso}.")
-        if(self.ra == " "):
+        if(self.ra == ""):
             print("Esse aluno não tem RA.")
         else:
             print(f"O RA é: {self.ra}")
